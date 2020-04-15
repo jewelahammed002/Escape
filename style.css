@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fonts*/
+@font-face{
+    font-family: brandon-grotesque-reg;
+    src: url(fonts/brandon-grotesque-reg.otf);
+}
+@font-face{
+    font-family: brandon-grotesque-light;
+    src: url(fonts/brandon-grotesque-light.otf)
+}
+@font-face{
+    font-family: brandon-grotesque-bld;
+    src: url(fonts/brandon-grotesque-bld.otf)
+}
+@font-face{
+    font-family: brandon-grotesque-medium;
+    src: url(fonts/brandon-grotesque-medium.otf);
+}
+/*fonts*/
+.main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+/*header*/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ebanner.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+.logo{
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 45px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+     margin-top: 45px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-family: brandon-grotesque-reg;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.title{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    font-family: brandon-grotesque-reg;
+    font-weight: ;
+    font-size: 85px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.title p{
+    font-family: brandon-grotesque-light;
+    font-size: 42px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-family: brandon-grotesque-reg;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*header*/
+/*about*/
+.a_1{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.about_1{
+    width: 65%;
+    float: left;
+}
+.about_1 h2{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+}
+
+.about_1 span{
+    font-family: brandon-grotesque-bld;
+}
+.about_1 p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.tree{
+    width: 30%;
+    float: right;
+    margin-top: 48px;
+}
+.tree img{
+
+}
+.a_2{
+    background: #f2f2f2;
+    padding: 75px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.about_2{
+    width: 65%;
+    float: right;
+}
+.about_2 h2{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+}
+.about_2 span{
+    font-family: brandon-grotesque-bld;
+}
+.about_2 p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.user{
+    width: 30%;
+    float: left;
+    margin-top: 48px;
+}
+.user img{
+
+}
+/*about*/
+/*services*/
+.services{
+    padding: 60px 0px;
+}
+.container{
+  display: block;
+  margin-top: 50px;
+}
+
+.container .item{
+  width: 44%;
+  padding: 28px;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.icon img{
+    margin-right: 15px;
+}
+
+.info h6{
+    font-family: brandon-grotesque-medium;
+    font-size: 28px;
+}
+.info p{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+}
+/*services*/
+
+.clear{
+    clear: both;
+}
+/*comments*/
+.client_comment{
+    overflow: hidden;
+    background: #f2f2f2;
+    padding: 60px 0px;
+    margin-top: 90px;
+}
+.clients h4{
+    font-family: brandon-grotesque-light;
+    text-align: center;
+    font-size: 60px;
+}
+.clients span{
+    font-family: brandon-grotesque-bld;
+}
+.clients p {
+    font-family: brandon-grotesque-reg;
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 65px;
+}
+.comment_1{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.member img{
+    float: left;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	margin-left: 65px;
+}
+
+.content{
+    float: right;
+    margin-top: 15px;
+    padding: 8px 80px;
+
+}
+.content h3, .content2 h3{
+    font-family: brandon-grotesque-medium;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.content span, .content2 span{
+    font-family: brandon-grotesque-reg;
+    font-size: 20px;
+    color: #86a5d2;
+}
+ #talkbubble {
+    height: 180px;
+    background: white;
+    position: relative;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 99px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 10px solid transparent;
+}
+.comment_2{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.member2 img{
+    float: right;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.content2{
+    float: left;
+    margin-top: 15px;
+    padding: 8px 80px;
+    margin-left: 60px;
+}
+ #talkbubble2 {
+    height: 180px;
+    background: white;
+    position: relative;
+}
+#talkbubble2:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 99px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid white;
+    border-bottom: 10px solid transparent;
+}
+/*comments*/
+/*site*/
+.site{
+    overflow: hidden;
+    margin: 55px 0px;
+}
+.site ul{
+    margin-bottom: 50px;
+    margin-top: 55px;
+}
+.site ul li{
+    list-style: none;
+    padding: 0px 28px;
+}
+.site ul li a{
+
+}
+.site img{
+    width: 135px;
+    height: 30px;
+}
+/*site*/
+/*team*/
+.clear{
+    clear: both;
+}
+.team{
+    background: #111111;
+    text-align: center;
+    overflow: hidden;
+}
+.team h4{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+.team span{
+    font-family: brandon-grotesque-bld;
+    color: #fff;
+}
+.team p{
+    font-family: brandon-grotesque-light;
+    font-size: 29px;
+    color: #fff;
+    text-align: center;
+}
+.ourteam{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.person{
+    margin: 0 45px;
+    padding: 25px 0;
+    max-width: 30%;
+    transition: 0.3s;
+}
+.person img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.name{
+    font-family: brandon-grotesque-medium;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+.post{
+    font-family: brandon-grotesque-light;
+    font-size: 20px;
+    color: #fff;
+}
+.social{
+    margin-top: 10px;
+}
+.social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0px 5px;
+    transition: 0.2s;
+}
+.social a:hover{
+
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+.dsc p{
+    font-family: brandon-grotesque-medium;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/*team*/
+/*footer*/
+footer{
+    background: #7690c5;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.ft_contact{
+    width: 45%;
+    float: left;
+    margin-top: 85px;
+}
+.ft_contact h1{
+    font-family: brandon-grotesque-light;
+    font-size: 75px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+}
+.ft_contact h2{
+    font-family: brandon-grotesque-bld;
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;   
+}
+
+.ft_contact p{
+    font-family: brandon-grotesque-reg;
+    font-size: 22px;
+}
+.contact{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.contact_1{
+    width: 50%;
+    float: left;
+}
+.contact_2{
+    width: 50%;
+    float: right;
+}
+span img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px -5px 0;
+}
+.contact h6{
+    font-family: brandon-grotesque-reg;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 15px;
+}
+/*form*/
+.form{
+    float: right;
+    width: 50%;
+    padding: 100px 0;
+}
+input {
+    font-family: brandon-grotesque-reg;
+    font-weight: 300;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+#textarea{
+    font-family: brandon-grotesque-reg;
+    font-weight: 300;
+    width: 100%;
+    padding: 15px;
+    height: 150px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 35px;
+}
+button {
+    font-family: brandon-grotesque-reg;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 5px 35px;
+    color: #ffffff;
+    background: #7690c5;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+button:hover{
+    background-color: #fff;
+    color: #7690c5;
+    cursor: pointer;
+}
+/*form*/
+/*footer*/
+ .footer_bottom{
+    background: #7690c5;
+    height: 70px;
+    text-align: center;
+    border-top: 1px solid white;
+ }
+ .footer_bottom p{
+    font-family: brandon-grotesque-medium;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+ }
+ /*footer*/
